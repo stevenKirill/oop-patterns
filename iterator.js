@@ -1,3 +1,6 @@
+// умный перебор коллекций
+// без раскрытия внутреннего представления элементов
+// не позволяет изменять что то внутри наших объектов
 class ArrayIterator {
     constructor(collection) {
         this.collection = collection;
