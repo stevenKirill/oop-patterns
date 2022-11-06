@@ -1,3 +1,4 @@
+/// цепочка передачи выполнения функций
 class Account {
     pay(price) {
         if (this.canPay(price)) {
