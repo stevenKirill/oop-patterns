@@ -70,10 +70,3 @@ const hondaWithAutopilot2 = new AutoPilot(new Honda());
 hondaWithAutopilot2.addAutoPilot();
 const hondaWithAutopilotAndSpoiler = new Spoiler(hondaWithAutopilot2);
 hondaWithAutopilotAndSpoiler.addSpoler();
-
-
-console.log(basicHonda);
-
-console.log(hondaWithAutopilot);
-
-console.log(hondaWithAutopilotAndSpoiler);

@@ -1,60 +1,60 @@
 class Mentor {
-    studyProcess() {
-        this.readBook();
-        this.solveProblems();
-        this.createPetProjects();
-        this.makeTestTask();
-        this.readyForFirstJob();
-    }
+  studyProcess() {
+    this.readBook();
+    this.solveProblems();
+    this.createPetProjects();
+    this.makeTestTask();
+    this.readyForFirstJob();
+  }
 }
 
 class Julia extends Mentor {
-    readBook() {
-        console.log('I read You dont know JS');
-    }
+  readBook() {
+    console.log("I read You dont know JS");
+  }
 
-    solveProblems() {
-        console.log('I solved problems on codewars platform');
-    }
+  solveProblems() {
+    console.log("I solved problems on codewars platform");
+  }
 
-    createPetProjects() {
-        console.log('I created todo list');
-    }
+  createPetProjects() {
+    console.log("I created todo list");
+  }
 
-    makeTestTask() {
-        console.log('i created table with filters')
-    }
+  makeTestTask() {
+    console.log("i created table with filters");
+  }
 
-    readyForFirstJob() {
-        console.log('ready for job at sberbank')
-    }
+  readyForFirstJob() {
+    console.log("ready for job at sberbank");
+  }
 }
 
 class Mark extends Mentor {
-    readBook() {
-        console.log('I read Javascript for noobs');
-    }
+  readBook() {
+    console.log("I read Javascript for noobs");
+  }
 
-    solveProblems() {
-        console.log('I solved problems on learnjavascript.ru platform');
-    }
+  solveProblems() {
+    console.log("I solved problems on learnjavascript.ru platform");
+  }
 
-    createPetProjects() {
-        console.log('I created messanger list');
-    }
+  createPetProjects() {
+    console.log("I created messanger list");
+  }
 
-    makeTestTask() {
-        console.log('I created flyight widget')
-    }
+  makeTestTask() {
+    console.log("I created flyight widget");
+  }
 
-    readyForFirstJob() {
-        console.log('ready for job at gazprombank')
-    }
+  readyForFirstJob() {
+    console.log("ready for job at gazprombank");
+  }
 }
 
 const studentOne = new Julia();
 const studentTwo = new Mark();
 
 studentOne.studyProcess();
-console.log('---------------')
+console.log("---------------");
 studentOne.studyProcess();

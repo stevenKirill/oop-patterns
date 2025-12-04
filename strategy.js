@@ -1,16 +1,16 @@
 class Apartment {
-    constructor(discount) {
-        this.discount = discount;
-        this.amount = 0;
-    }
+  constructor(discount) {
+    this.discount = discount;
+    this.amount = 0;
+  }
 
-    setAmount(amount) {
-        this.amount = amount;
-    }
+  setAmount(amount) {
+    this.amount = amount;
+  }
 
-    checkout() {
-        return this.discount(this.amount);
-    }
+  checkout() {
+    return this.discount(this.amount);
+  }
 }
 // стратегии это функции который вызыыаются в одном и том же классе и дают разный результат
 // какие то методы которые выполняют разную логику
